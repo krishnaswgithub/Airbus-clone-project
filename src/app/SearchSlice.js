@@ -6,10 +6,6 @@ const SearchSlice = createSlice({
     name: "search",
     initialState,
     reducers: {
-        // searchFlights: (state, action) =>{
-        //     state.data = [...action.payload]
-
-        // },
         fromToSetInRedux: (state, action) =>{
            state.from = action.payload.from;
            state.to = action.payload.to;
